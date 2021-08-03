@@ -51,7 +51,7 @@ class ShortController extends AbstractController
     }
 
     /**
-     * @Route("/delete/{id}", name="shortDelete")
+     * @Route("/delete/{id}", name="shortDelete", methods={"DELETE"})
      */
     public function delete(Short $short, EntityManagerInterface $manager): Response
     {
