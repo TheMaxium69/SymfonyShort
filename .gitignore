@@ -1,3 +1,8 @@
+.env
+.env.example
+.env.local
+.env.staging
+.idea/
 
 ###> symfony/framework-bundle ###
 /.env.local
