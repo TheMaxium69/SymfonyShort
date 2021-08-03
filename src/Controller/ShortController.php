@@ -24,7 +24,7 @@ class ShortController extends AbstractController
     {
         $shorts = $shortRepository->findAll();
 
-        return $this->json($shorts);
+        return $this->json($shorts, 200);
     }
 
     /**
